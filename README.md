@@ -28,7 +28,7 @@ To implement a grocery mart java application that allows users to add and purcha
 
 The pattern ensures that a single class is responsible for creatinf only one object and provides a way to access the object directly without needing intitiation of the class object. In our application, Singleton is used to cap values for categories i.e. Essential, Luxury and Misc. getInstance() method is used to obtain the cap values.
 
-![Singleton](src/images/Singleton.png)
+![Singleton](src/images/Singleton.jpg)
 
       
 
@@ -36,7 +36,7 @@ The pattern ensures that a single class is responsible for creatinf only one obj
 
 The pattern ensures that a request from the client is passed to a chain of objects to process them. The object in the chain will decide the the order of chain and whether the request needs to be passed down the chain or not. Chain of Responsibility is used to validate the quantity and price of the product in a chained process. After the quantity and cap is validated, total price will be calculated.
 
-![ChainOfResponsibility](src/images/ChainOfResponsibility.png)
+![ChainOfResponsibility](src/images/ChainOfResponsibility.jpg)
 
 
 
@@ -44,7 +44,7 @@ The pattern ensures that a request from the client is passed to a chain of objec
 
 The pattern provides an interface which allows subclasses to change the type of objects in the superclass. Factory is used to read the input file and dataset. InputReader reads the input files and ReadData class reads dataset file when Handler determines which class to read.
 
-![Factory](src/images/Factory.png)
+![Factory](src/images/Factory.jpg)
 
 # Test Cases
 
