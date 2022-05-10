@@ -9,7 +9,7 @@ public class CheckCapValue {
 	static HashMap<String, items> items = new HashMap<String, items>();
 	static HashMap<String,Integer> CategoryCap = new HashMap<String,Integer>();
 	private CheckCapValue() {
-		CategoryCap.put("Essentials",10);
+		CategoryCap.put("Essentials",20);
 		CategoryCap.put("Luxury",10);
 		CategoryCap.put("Misc",10);
 		

@@ -13,7 +13,7 @@ public class Billing {
 		sc.close();
 		// System.out.println("filepath: "+filepath);
 		CardData carddata = new CardData();
-		carddata.readCarddata("/Users/admin/Desktop/CMPE202/individual-project-preethibilla/src/resources/Cards.csv");
+		carddata.readCarddata("/Users/neerajmssj/Desktop/SJSU/Spring 2022/CMPE 202/Project/Individual Project/individual-project-Neeraj-MSSJ/src/resources/Cards.csv");
 		QtyCheck qtycheck = new QtyCheck();
 		CalPrice pricecalculation = new CalPrice();
 		// CheckCap checkcap = new CheckCap();

@@ -16,7 +16,7 @@ public class QtyCheck implements Handler{
 	public void check(String filePath) {
 		// Reading the Dataset file
 		DataScan  read = new DataScan();
-		read.Filescan("/Users/admin/Desktop/CMPE202/individual-project-preethibilla/src/resources/Dataset.csv");
+		read.Filescan("/Users/neerajmssj/Desktop/SJSU/Spring 2022/CMPE 202/Project/Individual Project/individual-project-Neeraj-MSSJ/src/resources/Dataset.csv");
 		HashMap<String, items> dbitems = read.items;
 		
 		// Reading the Input file
